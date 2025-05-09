@@ -27,6 +27,7 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
         |-- json_vis_decoder
         |-- train.json
         |-- test.json
+```
 - **Train or eval** by running:
 
 - ** Visualize Reconstructed Features
