@@ -16,7 +16,7 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 
 
 ## 4. Quick Start
-### 4.1 MVTec-AD
+**4.1 MVTec-AD**
 
 - **Create the MVTec-AD dataset directory**. Download the MVTec-AD dataset from [here](https://www.mvtec.com/company/research/datasets/mvtec-ad). Unzip the file and move some to `./data/MVTec-AD/`. The MVTec-AD dataset directory should be as follows. 
 
