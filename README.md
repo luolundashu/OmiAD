@@ -30,7 +30,7 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 ```
 - **Train or eval** by running:
 
-- ** Visualize Reconstructed Features
+-  **Visualize Reconstructed Features**
 
 ## 5. Acknowledgement
 This code is primarily based on modifications made from [guided-diffusion
