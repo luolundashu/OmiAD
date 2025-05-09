@@ -12,7 +12,8 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 ![image](https://github.com/user-attachments/assets/2c452ee4-1566-435b-bdca-b717287440e6)
 
 ## Algorithm for Adversarial Score Distillation in OmiAD
-![image](https://github.com/user-attachments/assets/a499faf9-828c-4576-be4d-ea24af04ab8a)
+![image](https://github.com/user-attachments/assets/1acf69fe-e569-4eba-a1b4-fb16bff54e3d)
+
 
 ## Quick Start
 
