@@ -18,5 +18,9 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 ## Quick Start
 
 
+## Acknowledgement
+This code is primarily based on modifications made from [guided-diffusion
+](https://github.com/openai/guided-diffusion), . We would like to express our gratitude to the authors of these repositories for their excellent foundational work, which significantly inspired and supported our research. Their contributions have been invaluable in the development of this project.
+
 
 
