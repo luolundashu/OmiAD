@@ -16,21 +16,29 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 
 
 ## 4. Quick Start
-**4.1 MVTec-AD**
+**4.1 Datasets**
+- **Create the MVTec-AD dataset directory**. The datasets can be downloaded from [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/), [VisA](https://github.com/amazon-science/spot-diff), [MPDD](https://github.com/stepanje/MPDD), [RealIAD](https://github.com/Tencent/AnomalyDetection_Real-IAD).  Unzip the file and move some to `./my_data/MVTec-AD/`. To ensure consistency across datasets, please run make_visa_dataset.py and make_realiad_dataset.py to convert the VisA and RealAd datasets into the same format as MVTec-AD and MPDD.
 
-- **Create the MVTec-AD dataset directory**. Download the MVTec-AD dataset from [here](https://www.mvtec.com/company/research/datasets/mvtec-ad). Unzip the file and move some to `./data/MVTec-AD/`. The MVTec-AD dataset directory should be as follows. 
+**4.2 Training**
+- **Generate dataset JSON files** Run `make_json.py` inside the `./data/` directory to generate the dataset JSON files.
 
-```
-|-- data
-    |-- MVTec-AD
-        |-- mvtec_anomaly_detection
-        |-- json_vis_decoder
-        |-- train.json
-        |-- test.json
-```
-- **Train or eval** by running:
+- **Train the AMDM model:** Run `train_AMDM` inside the `./main/` directory to train the AMDM model.
 
--  **Visualize Reconstructed Features**
+- **Train the OmiAD:** Run `train_OmiAD` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = False`.
+
+**4.3 Testing**
+
+- **Test the OmiAD:** Run `train_OmiAD` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = True`.
+
+- **Noting:**
+We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at: ------, Extract code：-----. It is free to download the checkpoint and put it at "\experiments\MVTec-AD\G_checkpoints\G_ckpt_best.pth.tar"
+
+**4.4 Visualize Reconstructed Features**
+- **Train Decoders for Visualization:** Run `train_decoder.py` inside the `./main/` directory to train decoder. 
+
+- **Visualize Reconstructed Features:** Run vis_rec.py inside the ./main/ directory to train the decoder.
+
+    **Note:** Please make sure **args.make_npy** is set to True when running train_OmiAD.py beforehand.
 
 ## 5. Acknowledgement
 This code is primarily based on modifications made from [guided-diffusion
