@@ -11,29 +11,25 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 ## 2. Quantitative Results on different AD datasets for multi-class setting
 ![image](https://github.com/user-attachments/assets/2c452ee4-1566-435b-bdca-b717287440e6)
 
-## 3. Algorithm for Adversarial Score Distillation in OmiAD
-![image](https://github.com/user-attachments/assets/1acf69fe-e569-4eba-a1b4-fb16bff54e3d)
-
-
-## 4. Quick Start
-**4.1 Datasets**
+## 3. Quick Start
+**3.1 Datasets**
 - **Create the MVTec-AD dataset directory**. The datasets can be downloaded from [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/), [VisA](https://github.com/amazon-science/spot-diff), [MPDD](https://github.com/stepanje/MPDD), [RealIAD](https://github.com/Tencent/AnomalyDetection_Real-IAD).  Unzip the file and move some to `./my_data/MVTec-AD/`. To ensure consistency across datasets, please run make_visa_dataset.py and make_realiad_dataset.py to convert the VisA and RealAd datasets into the same format as MVTec-AD and MPDD.
 
-**4.2 Training**
+**3.2 Training**
 - **Generate dataset JSON files** Run `make_json.py` inside the `./data/` directory to generate the dataset JSON files.
 
 - **Train the AMDM model:** Run `train_AMDM` inside the `./main/` directory to train the AMDM model.
 
 - **Train the OmiAD:** Run `train_OmiAD` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = False`.
 
-**4.3 Testing**
+**3.3 Testing**
 
 - **Test the OmiAD:** Run `train_OmiAD` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = True`.
 
 - **Noting:**
 We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at: ------, Extract code：-----. It is free to download the checkpoint and put it at "\experiments\MVTec-AD\G_checkpoints\G_ckpt_best.pth.tar"
 
-**4.4 Visualize Reconstructed Features**
+**3.4 Visualize Reconstructed Features**
 - **Train Decoders for Visualization:** Run `train_decoder.py` inside the `./main/` directory to train decoder. 
 
 - **Visualize Reconstructed Features:** Run vis_rec.py inside the ./main/ directory to train the decoder.
