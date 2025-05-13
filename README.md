@@ -37,10 +37,8 @@ We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at:
     **Note:** Please make sure **args.make_npy** is set to True when running train_OmiAD.py beforehand.
 
 
-**4 Welcome to discuss with us (
-fengyx@stu.xidian.edu.cn) and cite our paper:**
-OmiAD: One-Step Adaptive Masked Diffusion Model for Multi-class Anomaly
-Detection via Adversarial Distillation
+## 4. Welcome to discuss with us (fengyx@stu.xidian.edu.cn) and cite our paper:
+OmiAD: One-Step Adaptive Masked Diffusion Model for Multi-class Anomaly Detection via Adversarial Distillation
 
 ## 5. Acknowledgement
 This code is primarily based on modifications made from [guided-diffusion
