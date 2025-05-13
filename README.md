@@ -27,7 +27,7 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 - **Test the OmiAD:** Run `train_OmiAD` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = True`.
 
 - **Noting:**
-We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at: ------, Extract code：-----. It is free to download the checkpoint and put it at "\experiments\MVTec-AD\G_checkpoints\G_ckpt_best.pth.tar"
+We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at: ------, Extract code：-----. It is free to download the checkpoint and put it at `\experiments\MVTec-AD\G_checkpoints\G_ckpt_best.pth.tar`
 
 **3.4 Visualize Reconstructed Features**
 - **Train Decoders for Visualization:** Run `train_decoder.py` inside the `./main/` directory to train decoder. 
