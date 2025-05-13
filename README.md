@@ -32,7 +32,7 @@ We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at:
 **3.4 Visualize Reconstructed Features**
 - **Train Decoders for Visualization:** Run `train_decoder.py` inside the `./main/` directory to train decoder. 
 
-- **Visualize Reconstructed Features:** Run `vis_rec.py` inside the ./main/ directory to train the decoder.
+- **Visualize Reconstructed Features:** Run `vis_rec.py` inside the `./main/` directory to train the decoder.
 
     **Note:** Please make sure **args.make_npy** is set to True when running train_OmiAD.py beforehand.
 
