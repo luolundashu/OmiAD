@@ -18,13 +18,13 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 **3.2 Training**
 - **Generate dataset JSON files** Run `make_json.py` inside the `./data/` directory to generate the dataset JSON files.
 
-- **Train the AMDM model:** Run `train_AMDM` inside the `./main/` directory to train the AMDM model.
+- **Train the AMDM model:** Run `train_AMDM.py` inside the `./main/` directory to train the AMDM model.
 
-- **Train the OmiAD:** Run `train_OmiAD` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = False`.
+- **Train the OmiAD:** Run `train_OmiAD.py` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = False`.
 
 **3.3 Testing**
 
-- **Test the OmiAD:** Run `train_OmiAD` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = True`.
+- **Test the OmiAD:** Run `train_OmiAD.py` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = True`.
 
 - **Noting:**
 We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at: ------, Extract code：-----. It is free to download the checkpoint and put it at `\experiments\MVTec-AD\G_checkpoints\G_ckpt_best.pth.tar`
