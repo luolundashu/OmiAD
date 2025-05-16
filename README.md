@@ -13,8 +13,8 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 
 ## 3. Quantitative Results on different AD datasets for multi-class setting
 ![image](https://github.com/user-attachments/assets/cae16353-91c6-4ff6-9352-6f3b27e6b994)
-**🔔 Note:** **The performance of OmiAD on the Real-IAD dataset in the table above is slightly different from that reported in the original paper**. This is due to improvements and refinements in our latest implementation. **OmiAD now achieves higher performance across all seven evaluation metrics on Real-IAD**, demonstrating better generalization and robustness. All results reflect the current version of the code in this repository.
-The corresponding configuration and well-trained checkpoint have been released in **4.3 Testing**.
+**🔔 Note:** T**he performance of OmiAD on the Real-IAD dataset, as shown in the table above, slightly differs from that reported in the original paper**. This is due to the improvements and refinements incorporated into our latest implementation. **In the current version, OmiAD achieves superior performance across all seven evaluation metrics on Real-IAD**, demonstrating enhanced generalization and robustness. All results reflect the most recent version of the code in this repository.
+**The corresponding configuration and well-trained checkpoints have been released in 4.3 Testing**.
 
 
 ## 4. Quick Start
