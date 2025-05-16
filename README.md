@@ -48,7 +48,7 @@ OmiAD: One-Step Adaptive Masked Diffusion Model for Multi-class Anomaly Detectio
 
 ## 6. Acknowledgement
 This code is primarily based on modifications made from [guided-diffusion
-](https://github.com/openai/guided-diffusion), [SiD](https://github.com/mingyuanzhou/SiD) and [UniAD](https://github.com/zhiyuanyou/UniAD). We would like to express our gratitude to the authors of these repositories for their excellent foundational work, which significantly inspired and supported our research. Their contributions have been invaluable in the development of this project.
+](https://github.com/openai/guided-diffusion), [SiD](https://github.com/mingyuanzhou/SiD), [SiDA (SiD with Adversarial Loss)](https://arxiv.org/abs/2410.14919) and [UniAD](https://github.com/zhiyuanyou/UniAD). We would like to express our gratitude to the authors of these repositories for their excellent foundational work, which significantly inspired and supported our research. Their contributions have been invaluable in the development of this project.
 
 
 
