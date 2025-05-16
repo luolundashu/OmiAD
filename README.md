@@ -14,6 +14,8 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 ## 3. Quantitative Results on different AD datasets for multi-class setting
 ![image](https://github.com/user-attachments/assets/2c452ee4-1566-435b-bdca-b717287440e6)
 
+### Table 1: Quantitative Results on Different AD Datasets for Multi-class Setting
+
 | Dataset   | Method        | \multicolumn{3}{c|}{Image-level}     | \multicolumn{4}{c|}{Pixel-level}            | mAD  |
 |-----------|---------------|--------|------|--------|--------|------|--------|--------|------|
 |           |               | AU-ROC | AP   | F1_max | AU-ROC | AP   | F1_max | AU-PRO |      |
@@ -52,6 +54,7 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 |           | HVQ-Trans     | 86.6   | 89.4 | 77.8   | 97.6   | 30.7 | 33.7   | 87.2   | 72.6 |
 |           | **AMDM (Ours)** | 89.8 | 87.7 | 81.9   | 98.6   | 36.5 | 41.4   | **92.6** | 75.5 |
 |           | **OmiAD (Ours)** | **90.1** | **88.6** | **82.8** | **98.9** | 37.7 | 42.6 | 93.1 | **76.3** |
+
 ## 4. Quick Start
 **4.1 Datasets**
 - **Create the dataset directory**. The datasets can be downloaded from [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/), [VisA](https://github.com/amazon-science/spot-diff), [MPDD](https://github.com/stepanje/MPDD), [RealIAD](https://github.com/Tencent/AnomalyDetection_Real-IAD](https://realiad4ad.github.io/Real-IAD/)).  Unzip the file and move some to `./my_data/MVTec-AD/`. To ensure consistency across datasets, please run `make_visa_dataset.py` and `make_realiad_dataset.py` to convert the VisA and RealAd datasets into the same format as MVTec-AD and MPDD.
