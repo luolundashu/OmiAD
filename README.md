@@ -34,6 +34,24 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 |           | HVQ-Trans     | 93.2   | 92.8 | 87.6   | 97.6   | 39.8 | 39.6   | 86.3   | 76.2 |
 |           | **AMDM (Ours)** | 94.8 | 95.6 | 91.1   | 98.7   | 39.8 | 43.5   | 88.4   | 78.9 |
 |           | **OmiAD (Ours)** | **95.3** | **96.0** | **91.2** | **98.9** | **40.4** | 44.1 | 89.2 | **79.3** |
+
+| **MPDD**    | RD4AD        | 84.1   | 83.2 | 84.1   | 98.1   | 35.2 | 38.7   | 93.4   | 73.8 |
+|           | UniAD         | 82.2   | 87.1 | 85.1   | 95.1   | 18.9 | 25.0   | 81.0   | 67.9 |
+|           | SimpleNet     | 90.6   | 94.1 | 89.7   | 97.1   | 33.6 | 35.7   | 90.0   | 75.8 |
+|           | DeSTSeg       | 93.0   | 95.1 | 90.6   | 94.1   | 33.2 | 37.6   | 59.8   | 71.9 |
+|           | DiAD          | 74.6   | 82.1 | 82.5   | 93.5   | 15.9 | 21.2   | 78.4   | 64.0 |
+|           | HVQ-Trans     | 86.5   | 88.1 | 85.8   | 96.7   | 27.6 | 31.4   | 86.9   | 71.9 |
+|           | **AMDM (Ours)** | 93.3 | 94.9 | 90.7   | 98.4   | 41.6 | 42.3   | **94.5** | 78.4 |
+|           | **OmiAD (Ours)** | **93.7** | **95.5** | **90.9** | **98.6** | **37.6** | **42.3** | 94.0 | **78.9** |
+
+| **Real-IAD** | RD4AD       | 82.4   | 79.0 | 73.9   | 97.3   | 25.0 | 32.7   | 89.6   | 68.6 |
+|           | UniAD         | 83.0   | 80.9 | 74.3   | 97.3   | 21.1 | 29.2   | 86.7   | 67.5 |
+|           | SimpleNet     | 57.2   | 53.4 | 61.5   | 75.2   | 2.8  | 6.5    | 39.0   | 42.3 |
+|           | DeSTSeg       | 82.3   | 79.2 | 73.2   | 94.6   | **37.9** | **41.7** | 40.6 | 64.2 |
+|           | DiAD          | 75.6   | 66.4 | 69.9   | 88.0   | 2.9  | 7.1    | 58.1   | 52.6 |
+|           | HVQ-Trans     | 86.6   | 89.4 | 77.8   | 97.6   | 30.7 | 33.7   | 87.2   | 72.6 |
+|           | **AMDM (Ours)** | 89.8 | 87.7 | 81.9   | 98.6   | 36.5 | 41.4   | **92.6** | 75.5 |
+|           | **OmiAD (Ours)** | **90.1** | **88.6** | **82.8** | **98.9** | 37.7 | 42.6 | 93.1 | **76.3** |
 ## 4. Quick Start
 **4.1 Datasets**
 - **Create the dataset directory**. The datasets can be downloaded from [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/), [VisA](https://github.com/amazon-science/spot-diff), [MPDD](https://github.com/stepanje/MPDD), [RealIAD](https://github.com/Tencent/AnomalyDetection_Real-IAD](https://realiad4ad.github.io/Real-IAD/)).  Unzip the file and move some to `./my_data/MVTec-AD/`. To ensure consistency across datasets, please run `make_visa_dataset.py` and `make_realiad_dataset.py` to convert the VisA and RealAd datasets into the same format as MVTec-AD and MPDD.
