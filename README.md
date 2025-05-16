@@ -14,6 +14,26 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 ## 3. Quantitative Results on different AD datasets for multi-class setting
 ![image](https://github.com/user-attachments/assets/2c452ee4-1566-435b-bdca-b717287440e6)
 
+| Dataset   | Method        | \multicolumn{3}{c|}{Image-level}     | \multicolumn{4}{c|}{Pixel-level}            | mAD  |
+|-----------|---------------|--------|------|--------|--------|------|--------|--------|------|
+|           |               | AU-ROC | AP   | F1_max | AU-ROC | AP   | F1_max | AU-PRO |      |
+| **MVTec-AD** | RD4AD        | 94.6   | 96.5 | 95.2   | 96.1   | 48.6 | 53.8   | 91.1   | 82.3 |
+|           | UniAD         | 96.5   | 98.8 | 96.2   | 96.8   | 43.4 | 49.5   | 90.7   | 81.7 |
+|           | SimpleNet     | 95.3   | 98.6 | 95.8   | 96.9   | 45.9 | 49.7   | 86.5   | 81.2 |
+|           | DeSTSeg       | 89.2   | 95.5 | 91.6   | 93.1   | **54.3** | 50.9 | 64.8   | 77.1 |
+|           | DiAD          | 97.2   | 99.0 | 96.5   | 96.8   | 52.6 | 55.5   | 90.7   | 84.0 |
+|           | HVQ-Trans     | 98.0   | 99.5 | 97.5   | 97.3   | 48.2 | 53.3   | 91.4   | 83.8 |
+|           | **AMDM (Ours)** | 98.4 | 99.0 | 97.4   | 97.5   | 51.5 | 56.1   | 92.6   | 84.6 |
+|           | **OmiAD (Ours)** | **98.8** | **99.7** | **98.5** | **97.7** | 52.6 | **56.7** | **93.2** | **85.3** |
+
+| **VisA**    | RD4AD        | 92.4   | 92.4 | 89.6   | 98.1   | 38.0 | 42.6   | **91.8** | 77.8 |
+|           | UniAD         | 88.8   | 90.8 | 85.8   | 98.3   | 33.7 | 39.0   | 85.5   | 74.6 |
+|           | SimpleNet     | 87.2   | 87.0 | 81.8   | 96.8   | 34.7 | 37.8   | 81.4   | 72.4 |
+|           | DeSTSeg       | 88.9   | 89.0 | 85.2   | 96.1   | 39.6 | **43.4** | 67.4 | 72.8 |
+|           | DiAD          | 86.8   | 88.3 | 85.1   | 96.0   | 26.1 | 33.0   | 75.2   | 70.1 |
+|           | HVQ-Trans     | 93.2   | 92.8 | 87.6   | 97.6   | 39.8 | 39.6   | 86.3   | 76.2 |
+|           | **AMDM (Ours)** | 94.8 | 95.6 | 91.1   | 98.7   | 39.8 | 43.5   | 88.4   | 78.9 |
+|           | **OmiAD (Ours)** | **95.3** | **96.0** | **91.2** | **98.9** | **40.4** | 44.1 | 89.2 | **79.3** |
 ## 4. Quick Start
 **4.1 Datasets**
 - **Create the dataset directory**. The datasets can be downloaded from [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/), [VisA](https://github.com/amazon-science/spot-diff), [MPDD](https://github.com/stepanje/MPDD), [RealIAD](https://github.com/Tencent/AnomalyDetection_Real-IAD](https://realiad4ad.github.io/Real-IAD/)).  Unzip the file and move some to `./my_data/MVTec-AD/`. To ensure consistency across datasets, please run `make_visa_dataset.py` and `make_realiad_dataset.py` to convert the VisA and RealAd datasets into the same format as MVTec-AD and MPDD.
