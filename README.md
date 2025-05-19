@@ -47,7 +47,7 @@ We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at:
    We have also released our well-trained decoder checkpoints for MVTec, VisA, MPDD, and RealIAD at: `https://pan.baidu.com/s/1GLqRXKrGf9V9rl-XC9k2Og?`, Extract code：-----. It is free to download the checkpoint and put it at `\experiments\train_vis_decoder`
 
 
-## 5. 📚 Contact:
+## 5. ✉️ Contact:
 If you have any questions about our work, please do not hesitate to contact (fengyx@stu.xidian.edu.cn)
 
 ## 6. 📚 Citation:
