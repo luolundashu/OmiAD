@@ -21,7 +21,7 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 
 ## 4. 🚀 Quick Start
 **4.1 📁 Datasets**
-- **Create the dataset directory**. The datasets can be downloaded from [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/), [VisA](https://github.com/amazon-science/spot-diff), [MPDD](https://github.com/stepanje/MPDD), [RealIAD](https://github.com/Tencent/AnomalyDetection_Real-IAD](https://realiad4ad.github.io/Real-IAD/)).  Unzip the file and move some to `./my_data/MVTec-AD/`. To ensure consistency across datasets, please run `make_visa_dataset.py` and `make_realiad_dataset.py` to convert the VisA and RealAd datasets into the same format as MVTec-AD and MPDD.
+- **Create the dataset directory**. The datasets can be downloaded from [MVTec-AD](https://www.mvtec.com/company/research/datasets/mvtec-ad/), [VisA](https://github.com/amazon-science/spot-diff), [MPDD](https://github.com/stepanje/MPDD), [Real-IAD](https://github.com/Tencent/AnomalyDetection_Real-IAD](https://realiad4ad.github.io/Real-IAD/)).  Unzip the file and move some to `./my_data/MVTec-AD/`. To ensure consistency across datasets, please run `make_visa_dataset.py` and `make_realiad_dataset.py` to convert the VisA and RealAd datasets into the same format as MVTec-AD and MPDD.
 
 **4.2 🏋️ Training**
 - **Generate dataset JSON files** Run `make_json.py` inside the `./data/` directory to generate the dataset JSON files.
