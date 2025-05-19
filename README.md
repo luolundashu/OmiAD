@@ -30,7 +30,7 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 
 - **Train the OmiAD:** Run `train_OmiAD.py` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = False`.
 
-**4.3 🧪 Testing**
+**4.3🧪 Testing**
 
 - **Test the OmiAD:** Run `train_OmiAD.py` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = True`.
 
@@ -47,10 +47,10 @@ We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at:
    We have also released our well-trained decoder checkpoints for MVTec, VisA, MPDD, and RealIAD at: `https://pan.baidu.com/s/1GLqRXKrGf9V9rl-XC9k2Og?`, Extract code：-----. It is free to download the checkpoint and put it at `\experiments\train_vis_decoder`
 
 
-## 5. 📚Welcome to discuss with us (fengyx@stu.xidian.edu.cn) and cite our paper:
+## 5.📚 Welcome to discuss with us (fengyx@stu.xidian.edu.cn) and cite our paper:
 OmiAD: One-Step Adaptive Masked Diffusion Model for Multi-class Anomaly Detection via Adversarial Distillation
 
-## 6. 👏Acknowledgement
+## 6.👏 Acknowledgement
 This code is primarily based on modifications made from [guided-diffusion
 ](https://github.com/openai/guided-diffusion), [SiD](https://github.com/mingyuanzhou/SiD), [SiDA (SiD with Adversarial Loss)](https://arxiv.org/abs/2410.14919) and [UniAD](https://github.com/zhiyuanyou/UniAD). We would like to express our gratitude to the authors of these repositories for their excellent foundational work, which significantly inspired and supported our research. Their contributions have been invaluable in the development of this project.
 
