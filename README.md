@@ -1,4 +1,4 @@
-##✨OmiAD ✨
+# ✨OmiAD ✨
 
 This is the official repo for
 
