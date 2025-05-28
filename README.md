@@ -1,4 +1,4 @@
-# ✨OmiAD ✨ <img align="right" src="https://github.com/user-attachments/assets/71170914-2ae8-44cc-8254-9bad4754e18e" height="84">
+# ✨OmiAD: One-Step Adaptive Masked Diffusion Model for Multi-class Anomaly Detection via Adversarial Distillation ✨ <img align="right" src="https://github.com/user-attachments/assets/71170914-2ae8-44cc-8254-9bad4754e18e" height="84">
 **A PyTorch Implementation for Multi-Class Unsupervised Anomaly Detection**
 
 This is the official repo for **OmiAD: One-Step Adaptive Masked Diffusion Model for Multi-class Anomaly Detection via Adversarial Distillation (ICML 2025)**
