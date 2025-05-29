@@ -35,7 +35,7 @@ Diffusion models have demonstrated outstanding performance in industrial anomaly
 - **Test the OmiAD:** Run `train_OmiAD.py` inside the `./main/` directory to train the OmiAD model. Make sure to set `args.e = True`.
 
 - **🔔 Noting: 📦 Pretrained Weights:**
-We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at: `https://pan.baidu.com/s/1GLqRXKrGf9V9rl-XC9k2Og?`, Extract code：-----. It is free to download the checkpoint and put it at `\experiments\MVTec-AD\G_checkpoints\G_ckpt_best.pth.tar`
+We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at: `https://pan.baidu.com/s/1GLqRXKrGf9V9rl-XC9k2Og?`, Extract code：xfr7. It is free to download the checkpoint and put it at `\experiments\MVTec-AD\G_checkpoints\G_ckpt_best.pth.tar`
 
 **4.4 🔍 Visualize Reconstructed Features**
 - **Train Decoders for Visualization:** Run `train_decoder.py` inside the `./main/` directory to train decoder. 
@@ -44,7 +44,7 @@ We have also released our well-trained checkpoint on MVTec,VisA,MPDD,RealIAD at:
 
     **🔔 Noting:** Please make sure **args.make_npy** is set to True when running `train_OmiAD.py` beforehand.
   - **🔔 Noting: 📦 Pretrained Weights:**
-   We have also released our well-trained decoder checkpoints for MVTec, VisA, MPDD, and RealIAD at: `https://pan.baidu.com/s/1GLqRXKrGf9V9rl-XC9k2Og?`, Extract code：-----. It is free to download the checkpoint and put it at `\experiments\train_vis_decoder`
+   We have also released our well-trained decoder checkpoints for MVTec, VisA, MPDD, and RealIAD at: `https://pan.baidu.com/s/1GLqRXKrGf9V9rl-XC9k2Og?`, Extract code：xfr7. It is free to download the checkpoint and put it at `\experiments\train_vis_decoder`
 
 
 ## 5. ✉️ Contact:
